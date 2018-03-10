@@ -49,11 +49,11 @@ public class TestController {
 		
 		return "insert";
 	}
-	@RequestMapping(params={"id"},path="/insertOne")
+	@RequestMapping(params={"id"},path="")
 	public String insertOne(String id){
 		logger.info("insertOne");
 		
-		userMapper.insert(new User(new Integer(id),"ada"+id, "a123d456"+id));
+		userMapper.insert(new User(new Integer(id),id+"ada", "a123d456"+id));
 
 		return "insertOne";
 	}
