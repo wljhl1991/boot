@@ -26,7 +26,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	
 	private static final Logger logger = LogManager.getLogger("TestController");
-	
 	@Autowired
 	private UserMapper userMapper;
 	
@@ -44,7 +43,6 @@ public class TestController {
 	public String insert(){
 		logger.info("insert");
 		Random r = new Random();
-		
 		userMapper.insert(new User(r.nextInt(),"ada"+r.nextInt(), "a123d456"+r.nextInt()));
 		
 		return "insert";

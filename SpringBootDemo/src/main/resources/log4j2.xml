@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
     <properties>
-        <!-- 文件输出格式 -->
+        <!-- 文件输出格式   111 -->
         <property name="PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} |-%-5level [%thread] %c [%L] -| %msg%n</property>
     </properties>
     <appenders>
