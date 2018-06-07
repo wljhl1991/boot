@@ -26,7 +26,8 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * @author liudj 2018年6月6日 上午10:28:36
  * @ClassName FileNameFix
- * @Description: 修复java汉字乱码文件的文件名
+ * @Description  
+ *       文件名过滤，复制一个目录下的java文件，到另一个,并按类名重命名文件名
  * @version V1.0   
  */
 public class FileNameFix {
